@@ -8,6 +8,7 @@
 
 ### Running the project 
 * For this sprint you're going to be combining a bunch of the concepts that you've been working on thus far. Run `npm install` in the root of your project and also in the `client` directory. Once you have all of your dependancies, fire up the client by running `npm start`.
+
 * To run the app server, run `npm start` in the root of the project and ensure that your `mongod` server is running as well!
 * Your client has the following client side routes. You'll have to implement the backend in order to be able to navigate and use the client side application. You shouldn't have any thing to do on the front end. When your back end works your front end should start to work as well.
   - `'/'` our root route is a simple login page. This login form will hit submit a POST request to find a user in the DB and send that response back to the client. `Note` We are storing the user's _id in `localstorage`. and using it to submit more data throughout the app.
