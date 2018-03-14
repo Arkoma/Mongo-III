@@ -1,5 +1,6 @@
 const userRouter = require('../controllers/userControllers');
 module.exports = (app) => {
   //add your new routes here
-  userRouter;
+  app.route('/login').post(userRouter);
+  app.route('/new-user').post(userRouter);
 };
